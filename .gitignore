@@ -1,0 +1,7 @@
+!.gitignore
+!.bash_profile
+!.bashrc
+!.vimrc
+!.nanorc
+!.git/
+!.git/**
