@@ -1,0 +1,9 @@
+set tabsize 4
+set smooth
+set softwrap
+set linenumbers
+set nonewlines
+set multibuffer
+set regexp
+
+include /usr/local/share/nano/*.nanorc
