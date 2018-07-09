@@ -1,0 +1,10 @@
+[core]
+	excludefile = /Users/yuki.ieiri/.gitignore_global
+
+[user]
+
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	loga = log --oneline --graph --decorate
