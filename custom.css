@@ -141,6 +141,13 @@ div.rendered_html code {
  background: #1c1f28;
  background-color: #1c1f28;
 }
+div.rendered_html pre,
+div.text_cell_render pre {
+ line-height: 170% !important;
+ color: #abb7ce;
+ background: #1c1f28;
+ background-color: #1c1f28;
+}
 
 .cm-s-ipython.CodeMirror {
  color: #b5c2d9;
@@ -234,4 +241,14 @@ div.output_subarea.output_text, div.output_subarea.output_text > pre {
     color: #94c273;
 }
 
+.CodeMirror-cursor {
+ border-left: 2px solid #0095ff !important;
+}
+
+div.cell.text_cell .cm-s-default span.cm-variable-2 {
+ color: #abb7ce;
+}
+div.cell.text_cell .cm-s-default span.cm-variable-3 {
+ color: #cc89e0;
+}
 /* end of file */
