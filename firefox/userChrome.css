@@ -1,0 +1,11 @@
+/* 
+Remove New Tab Flash
+https://www.reddit.com/r/FirefoxCSS/comments/7o1bya/white_flash_loading_onto_instagram/
+*/
+@-moz-document url(chrome://browser/content/browser.xul) {
+  browser[type="content-primary"], tabbrowser tabpanels, #appcontent > #content {
+   background: #323234 !important;
+  }
+}
+
+/* end of file */

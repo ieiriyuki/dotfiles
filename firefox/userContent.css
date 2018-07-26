@@ -1,0 +1,12 @@
+/* https://medium.com/@shockpaste/firefox%E5%90%91%E3%81%91%E7%94%BB%E9%9D%A2%E6%9A%97%E3%81%8F%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4-9fa1320ce02c
+*/
+@-moz-document url(about:newtab), url(about:home), url(about:blank), url(about:preferences) {
+ body {
+  background-color: #323234 !important; 
+ }
+ .title > span {
+  color: #bbbbbb !important;
+ }
+}
+
+/* end of file */
