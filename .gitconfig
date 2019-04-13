@@ -1,17 +1,18 @@
 [core]
-	excludesfile = /Users/yuki.ieiri/.gitignore_global
+    excludesfile = /Users/yuki.ieiri/.gitignore_global
 
 [user]
 
 [alias]
-	ci = commit
-	co = checkout
-	st = status
-	loga = log --oneline --graph --decorate
-	logo = log --oneline
-	logall = log --oneline --all --graph --decorate
-	rog = reflog
+    br = branch
+    ci = commit
+    co = checkout
+    st = status
+    loga = log --oneline --graph --decorate
+    logo = log --oneline
+    logall = log --oneline --all --graph --decorate
+    rog = reflog
 [merge]
-	ff = true
+    ff = true
 [pull]
-	ff = only
+    ff = only
