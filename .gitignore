@@ -3,8 +3,6 @@
 !.bashrc
 !.vimrc
 !.nanorc
-!.git/
-!.git/**
 !.Renviron
 !.Rprofile
 !.Rhistory

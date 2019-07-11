@@ -1,12 +1,11 @@
-[user]
-
 [alias]
     br = branch
     ci = commit
     co = checkout
+    df = diff
+    loga = log --all --oneline --graph --decorate
+    logo = log --oneline --graph --decorate
     ls = ls-files
-    loga = log --oneline --all --graph --decorate
-    logo = log --oneline
     rog = reflog
     st = status
 [merge]
