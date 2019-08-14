@@ -6,6 +6,7 @@
     loga = log --all --oneline --graph --decorate
     logo = log --oneline --graph --decorate
     ls = ls-files
+    onto = rebase --onto
     rog = reflog
     st = status
 [merge]
