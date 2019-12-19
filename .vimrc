@@ -10,6 +10,9 @@ set cursorline
 set showmatch
 set whichwrap=b,s,h,l,<,>,[,],~
 set backspace=indent,eol,start
+set noeol
+set nofixeol
+set relativenumber
 
 nnoremap j gj
 nnoremap k gk
