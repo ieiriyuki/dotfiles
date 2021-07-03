@@ -3,6 +3,8 @@
     ci = commit
     co = checkout
     df = diff
+    dfc = diff --cached
+    feto = fetch origin
     loga = log --all --oneline --graph --decorate
     logo = log --oneline --graph --decorate
     ls = ls-files
