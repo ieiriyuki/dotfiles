@@ -1,10 +1,10 @@
 [alias]
-    br = branch
+    br = branch -vv
     ci = commit
     co = checkout
     df = diff
     dfc = diff --cached
-    feto = fetch origin
+    feto = fetch -p origin
     loga = log --all --oneline --graph --decorate
     logo = log --oneline --graph --decorate
     ls = ls-files
