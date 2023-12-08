@@ -6,4 +6,4 @@ set nonewlines
 set multibuffer
 set regexp
 
-include /usr/local/share/nano/*.nanorc
+#include /usr/local/share/nano/*.nanorc
