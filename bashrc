@@ -11,6 +11,7 @@ alias r='r -q --no-restore --no-save'
 alias rstd='open /Applications/RStudio.app'
 
 export PS1='\[\e[0;36m\]\u@\h\[\e[m\] \[\e[37m\]\W\[\e[33m\]$(__git_ps1)\[\e[m\]\$ '
+# PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\] \[\e[33m\]$(__git_ps1)\[\e[m\]\$ \[\]'
 
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
     . `brew --prefix`/etc/bash_completion.d/git-completion.bash
