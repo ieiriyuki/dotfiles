@@ -15,3 +15,5 @@
     ff = true
 [pull]
     ff = only
+[fetch]
+    prune = true
